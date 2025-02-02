@@ -1,0 +1,38 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Example CSS styles for the snake game */
+.snake-head {
+  transition: transform 0.15s ease-in-out;
+  border-radius: 10px; /* More rounded head */
+}
+
+.snake-body {
+  transition: transform 0.15s ease-in-out;
+  border-radius: 3px; /* Less rounded body */
+}

@@ -1,0 +1,6 @@
+{
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "service_worker": "src/pages/background/index.ts"
+  }
+}
