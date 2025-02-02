@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "vite.config.ts",
+    "package.json",
+    "src/app/manifest/manifest.ts",
+    "manifest.json",
+    "src/app/manifest/browser-instance/chrome.ts",
+    "src/app/manifest/browser-instance/firefox.ts",
+    "node_modules/@types"
+  ]
+}
